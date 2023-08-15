@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><b>A</b>nna <span style="color: #FF7518;"><b>D</b>aata</span></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="#about" class="active" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+                <li><a href="Help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p style="margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; background-color: #f0f0f0;">
+      <div style="width: 100%; height: 8px; background-color:  #FF7518;"></div>
+    </p>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <style>
+       
+        
+        .coverc{
+          width: 100%;
+          height: 400px;
+          background:url('img/about3.jpg')no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+ 
+        } 
+        .title{
+          font-size: 38px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+        .para p{
+            font-size: 23px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+          
+    </style>
+    <br>
+    <br>
+    <p class="title">"Welcome to <u> Anna Daata</u> "</p>
+    <br>
+    <br>
+    <br>
+        <p class="heading">About us</p>
+      <div class="para">
+        <p>Welcome to Anna Daata, a platform dedicated to alleviating hunger and fostering compassion through food donations. Our journey began with a simple yet profound idea – that the act of sharing a meal can create a positive ripple effect that touches lives far beyond just filling stomachs.</p><br><br>
+        <p class="heading" style=" font-size:30px ; text-align: center;">What We Do</p>
+
+      <div class="para">
+        <p>At Anna Daata, we work tirelessly to prevent good food from ending up in landfills. Our team of dedicated volunteers and partners collaborate to collect surplus food from households across the community. Whether it's extra groceries, 
+          leftovers from a party, or surplus ingredients, we believe that every bit of food can make a difference. By providing a convenient and reliable food pickup service, we aim to ease the process of donating food and encourage everyone to take part in this meaningful endeavor.</p><br><br>   
+          <p class="heading" style=" font-size:30px ; text-align: center;">Our Vision</p>    
+      <div class="para">     
+        <p> We envision a world where every individual has access to nutritious meals, and where food resources are utilized responsibly.
+           We strive to create a community that values sharing and compassion, making a positive impact on both the environment and the lives of people.</p><br><br>      
+           <p class="heading" style=" font-size:30px ; text-align: center;">Join Us to Make a Difference</p>
+           <div class="para">
+             <p> Whether you're an individual, a restaurant owner, or a business, 
+              you can join us in our mission to combat food insecurity and reduce food wastage. 
+              Every contribution counts, and together, we can create a brighter, more nourished future for everyone.</p>        
+      </div>
+      <br>
+      <br>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="chatbot/chatbot.css">
+	 
+
+</head>
+
+
+<body>
+	<header>
+        <div class="logo">Anna<b style="color:  #FF7518;"> Daata</b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li> <a href="contact.html" class="active">Contact</a> </li>
+                <li><a href="profile.php" >Profile</a></li>
+                <li><a href="Help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p style="margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; background-color: #f0f0f0;">
+      <div style="width: 100%; height: 8px; background-color:  #FF7518;"></div>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+	<p class="heading" style=" margin: 20px; font-size: 40px;">contact us </p>
+    
+     
+	
+   <!-- <h1 class="heading">Contact Us</h1>  -->
+   <div class="contact-form"> 
+    <form action="feedback.php" method="post"> <label for="name" style="font-size: 21px;">Name:</label> 
+     <input type="text" id="name" name="name">
+     <br> <label for="email" style="font-size: 21px;">Email:</label> 
+     <input type="email" id="email" name="email">
+     <br> <label for="message" style="font-size: 21px;">Message:</label> <textarea id="message" name="message"></textarea>
+     <br> 
+     <input type="submit" value="Send" name="send" style="background-color: #FF7518;font-size: 14px;" > 
+    </form> 
+   </div> 
+   <div class="contact-info" style="padding: 10px; font-size: 18px;"> 
+    <p>Email: annadaata@gmail.com</p> 
+    <p>Phone: 9059247691</p> 
+    <p>Address: Vit-ap university</p> 
+   </div> 
+ 
+
+  
+
+    
+</body>
+
+
+</html>

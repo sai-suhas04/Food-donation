@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><b>A</b>nna <span style="color: #FF7518;"><b>D</b>aata</span></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="about.html"  >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+                <li><a href="Help.html" class="active">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p style="margin: 0; padding: 0; display: flex; align-items: center; justify-content: center; background-color: #f0f0f0;">
+      <div style="width: 100%; height: 8px; background-color:  #FF7518;"></div>
+    </p>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <style>
+       
+        
+        .coverc{
+          width: 100%;
+          height: 400px;
+          background:url('img/about3.jpg')no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+ 
+        } 
+        .title{
+          font-size: 38px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+        .para p{
+            font-size: 23px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .para{
+            text-align:left;
+            padding-left:330px;
+        }
+          @media (max-width: 767px) {
+            .para p{
+               font-size: 16px;
+               /* margin-left: 10px; */
+              }
+            #pptslide{
+                height: 200px;
+                width: 300px;
+
+            }
+            #map{
+              height: 200px;
+                width: 300px;
+
+
+            }
+            #overview{
+              height: 200px;
+                width: 300px;
+            }
+            
+        .title{
+          font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center; 
+        }
+          }
+
+     
+    </style>
+    <br>
+    <br>
+    <!-- <section class="coverc">
+        
+    
+    </section> -->
+    
+    <br>
+    <br>
+    <br>
+        
+        <!-- <p  style=" font-size:30px ; text-align: center;" > ABOUT <span>US</span> </p> -->
+      
+        <!-- <br> -->
+
+
+           <p class="heading" style=" font-size:35px ; text-align: center;">How to Donate Food</p><br><br>
+           <div class="para">
+             <h3>Browse Food Donation Options:</h3>
+<p>1. Visit the homepage and navigate to the "Donate Food" section.</p>
+<p>2. Browse through the list of accepted food items and categories.</p><br>
+
+<h3>Select Donation Type:</h3>
+<p>1. Choose between a one-time donation or setting up recurring donations.</p>
+<p>2. Indicate the quantity and type of food items you wish to donate.</p><br>
+
+<h3>Fill Out Donation Form:</h3>
+<p>1. Provide your contact information for communication and coordination.</p>
+<p>2. Select your preferred pickup date and time, if applicable.</p><br>
+
+<h3>Review and Confirm:</h3>
+<p>1. Double-check your donation details, including food items and pickup information.</p>
+<p>2. Confirm your donation and proceed to the next steps.</p>
+           
+      </div>
+      <br>
+ 
+      
+    
+      <br>
+      
+
+
+
+
+
+     <!-- <p class="heading"> Our Story</p>
+     <div class="para">
+       <p>Our journey began with a realization that food waste is a significant problem in India. According to a report by the United Nations, India is the world's second-largest food producer, yet it also has one of the highest rates of food waste. This waste has a significant impact on the environment, as well as on food security in the country.</p>
+     </div> -->
+     <!-- <div class="overview"  style="  text-align: center; padding-bottom: 50px;" >
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1400 height=800 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/3094230/share/2023-3-2/1677763924/main.svg" id="overview"></iframe>
+     </div> -->
+</body>
+</html>
